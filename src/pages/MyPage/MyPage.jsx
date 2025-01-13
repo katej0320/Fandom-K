@@ -224,6 +224,7 @@ function MyPage() {
       const storedIdols = JSON.parse(storedData);
       const updatedStoredIdols = storedIdols.filter((idol) => idol.id !== id);
       localStorage.setItem("favoriteIdol", JSON.stringify(updatedStoredIdols));
+      window.location.reload();
     }
 
     toast.success("삭제 완료!", {
@@ -308,7 +309,7 @@ function MyPage() {
     <div>
       <Header />
       <img
-        style={{ position: "absolute", top: "0", zIndex: "9" }}
+        style={{ position: "absolute", top: "0", zIndex: "-1" }}
         src={backgroundImg}
         alt="배경그라데이션"
       />
