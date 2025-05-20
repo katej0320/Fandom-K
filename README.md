@@ -33,8 +33,10 @@ The component-based architecture helped eliminate repetitive code and significan
 
 ## Demo Videos
 
-![1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/6b5d66c8-fb8c-4ac8-9169-202c1e2a6b5a
+![1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/6b5d66c8-fb8c-4ac8-9169-202c1e2a6b5a)
+
 ![2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a2a80471-9c1e-4f77-bf4e-9de6f2823740)
+
 ![3-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7f90cf1b-a775-4794-a541-e1e2744e063d)
 ---
 
