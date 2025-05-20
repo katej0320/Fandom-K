@@ -1,14 +1,43 @@
-# Fandom-K
+# 🌟 Fandom-K
 
-코드잇 12기 기초 프로젝트 레포지토리
+**Fandom-K** is a web platform created for K-pop fans, focusing on interactive fan activities and immersive voting experiences. This project aims to deliver a modern landing experience with beautiful animations and responsive layouts.
 
-## Fandom-K 디자인 시안
+---
 
-https://www.figma.com/design/lccVqOCzq7XCUYztyC7KlQ/%5BAAA%5DFandom-K
+## ✨ My Role
 
-## Fandom-K swagger 문서
+- 🎨 Implemented a fully responsive landing page using React and SCSS
+- 🧩 Modularized layout into reusable components to reduce repetition and improve maintainability
+- 🎞 Applied Framer Motion animations for a dynamic and engaging user experience
+- 📣 Presented the project in final team presentation
 
-https://fandom-k-api.vercel.app/docs/
+---
 
-## Fandom-K 홈페이지
-https://fandom-k-liard.vercel.app/list
+## 🔧 Tools Used
+
+- VS Code  
+- Prettier  
+- React  
+- SCSS  
+- GitHub  
+- Notion  
+
+---
+
+## 📐 Component Design Strategy
+
+The component-based architecture helped eliminate repetitive code and significantly enhanced maintainability and reusability. I used props to dynamically inject content into each section, enabling scalable layout composition.
+
+---
+
+## 🎥 Framer Motion Animation Details
+
+```tsx
+<motion.div
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: false }}
+  transition={{ ease: "easeInOut", duration: 2 }}
+>
+  ...
+</motion.div>
